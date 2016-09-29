@@ -6,11 +6,12 @@
     tools:context="andro.jf.androfragments.MainActivity"
     tools:ignore="MergeRootFrame"
       android:orientation="vertical" >
-  
-  <fragment
+  <!-- Non need of the fragment tag for dynamic fragments: -->
+
+  <!-- <fragment
         android:id="@+id/fragmentstatic"
         android:name="andro.jf.androfragments.MonFragmentStatique"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-  
+  -->
 </LinearLayout>
